@@ -31,6 +31,7 @@ export default class GotService {
     }
     _transformCharacter(char){
         return {
+            id: char.url.replace('https://anapioficeandfire.com/api/characters/',''),
             name: char.name,
             gender: char.gender,
             born: char.born,
