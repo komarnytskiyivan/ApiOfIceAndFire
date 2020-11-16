@@ -28,7 +28,7 @@ export default class RandomChar extends Component {
         })
     }
     updateChar = () => {
-        const id = Math.floor(Math.random() * Math.floor(140));
+        const id = Math.floor(Math.random() * Math.floor(80));
         this.gotService.getCharacter(id)
             .then(this.onCharLoaded)
             .catch(this.onError)

@@ -3,7 +3,8 @@ import {Col, Row, Container} from 'reactstrap';
 import Header from '../header';
 import RandomChar from '../randomChar';
 import ErrorMessage from '../errorMessage';
-import CharacterPage from '../characterPage'
+import CharacterPage from '../pages/characterPage'
+import BooksPage from '../pages/booksPage'
 import './app.css'
 import gotService from '../../services/gotService'
 export default class App extends Component {
