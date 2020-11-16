@@ -6,8 +6,6 @@ import ErrorMessage from '../errorMessage';
 import CharacterPage from '../characterPage'
 import './app.css'
 import gotService from '../../services/gotService'
-import ItemList from '../itemList';
-import PersonDetails from '../charDetails/';
 export default class App extends Component {
     gotService = new gotService();
     state = {
